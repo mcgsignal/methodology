@@ -41,6 +41,6 @@ ICM Analytics maintains this repository. To change it, follow [CONTRIBUTING.md](
 
 Examples: `method: count a bridge fee as a burn`, `data: move 12 transfers from bridge exits back to burns`.
 
-## Licence
+## License
 
-The text in this repository is under [CC BY 4.0](LICENSE). You can copy and change it, also for commercial use, if you credit MCG Signal. The licence is for this text only. Data that we publish has its own terms. The terms of the token list are at [icm-analytics.com/label/terms](https://icm-analytics.com/label/terms/).
+The text in this repository is under [CC BY 4.0](LICENSE). You can copy and change it, also for commercial use, if you credit MCG Signal. The license is for this text only. Data that we publish has its own terms. The terms of the token list are at [icm-analytics.com/label/terms](https://icm-analytics.com/label/terms/).

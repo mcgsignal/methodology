@@ -1,0 +1,43 @@
+name: Data error
+description: Report a wrong or missing value, with proof from the chain.
+labels: ["data-error"]
+body:
+  - type: input
+    id: chain
+    attributes:
+      label: Chain
+      placeholder: Robinhood Chain
+    validations:
+      required: true
+  - type: input
+    id: subject
+    attributes:
+      label: Project or token
+      placeholder: Project name
+    validations:
+      required: true
+  - type: input
+    id: contract
+    attributes:
+      label: Token contract address (if it has one)
+      placeholder: "0x..."
+    validations:
+      required: false
+  - type: input
+    id: page
+    attributes:
+      label: Page that shows the value
+      placeholder: https://mcgsignal.com/burn
+  - type: textarea
+    id: proof
+    attributes:
+      label: Proof
+      description: The transaction hash or the block, and what the chain shows.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expect
+    validations:
+      required: true

@@ -13,7 +13,7 @@ A standard token burn function also makes a transfer to the zero address.
 
 | Item | Rule |
 | --- | --- |
-| Listing minimum | A token is on the list when its burns in the last 30 days have an estimated value of 1 ETH or more, or the same value in USD. |
+| Listing minimum | A token is on the list when its burns have an estimated value of 1 ETH or more, or the same value in USD. For the periods 24 hours, 7 days and 30 days, we count the burns of the last 30 days. For the period "all time", we count all burns. |
 | Periods | 24 hours, 7 days, 30 days and all time. |
 | Burned | The tokens that went to the zero address or the dead address in the period. |
 | Burn days | The number of UTC dates with one burn or more, in the 30 days that end on the date of the data. |
